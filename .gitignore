@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# venv
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+.idea/
+
+# Artifacts
+artifacts/
+*.pt
+*.pth
+
+# Notebooks
+.ipynb_checkpoints/
