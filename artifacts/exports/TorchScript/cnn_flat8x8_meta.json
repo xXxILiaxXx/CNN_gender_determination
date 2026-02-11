@@ -1,0 +1,15 @@
+{
+  "img_size": 128,
+  "class_to_idx": {
+    "men": 0,
+    "women": 1
+  },
+  "input_format": "RGB",
+  "input_tensor_shape": [
+    1,
+    3,
+    128,
+    128
+  ],
+  "notes": "TorchScript traced SimpleCNN (Conv-BN-ReLU-MaxPool x4 + Flatten + MLP head)"
+}

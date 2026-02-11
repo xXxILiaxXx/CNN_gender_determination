@@ -1,0 +1,16 @@
+{
+  "img_size": 128,
+  "class_to_idx": {
+    "men": 0,
+    "women": 1
+  },
+  "input_format": "RGB",
+  "input_tensor_shape": [
+    "batch",
+    3,
+    128,
+    128
+  ],
+  "output": "logits (before softmax), shape: [batch, 2]",
+  "opset": 17
+}
