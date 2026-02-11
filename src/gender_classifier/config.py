@@ -8,8 +8,8 @@ class Config:
     seed: int = 42
 
     # dataset
-    kaggle_dataset: str = "playlist/men-women-classification"
-    use_subdir: str = "data"
+    kaggle_dataset = "jangedoo/utkface-new"
+    use_subdir = ""
     class_names: tuple = ("men", "women")
 
     # split
@@ -31,3 +31,4 @@ class Config:
     models_dir: Path = Path("artifacts/models")
     logs_dir: Path = Path("artifacts/logs")
     reports_dir: Path = Path("artifacts/reports")
+    
