@@ -24,7 +24,7 @@ def main():
     parser.add_argument(
         "--ckpt",
         type=str,
-        default="artifacts/models/cnn_flat8x8.pt",
+        default="artifacts/models/cnn_flat8x81.pt",
         help="Path to checkpoint .pt",
     )
     args = parser.parse_args()
